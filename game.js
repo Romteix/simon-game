@@ -120,7 +120,7 @@ function checkAnswer(currentLevel) {
 //FONCTION POUR JOUER LES SONS ASSOCIES AUX COULEURS
     function playSound(name) {
         // on fait joué le son associé en concaténant pour obtenir l'url du fichier
-        var audio = new Audio("sounds/" + name + ".mp3");
+        var audio = new Audio("/sounds/" + name + ".mp3");
         console.log(audio);
        
         //on fait jouer l'audio
